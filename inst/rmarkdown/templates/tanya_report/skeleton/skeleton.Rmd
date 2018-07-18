@@ -1,0 +1,43 @@
+---
+title: "Full Report"
+author: "Tanya P. Garcia"
+date: "`r Sys.Date()`"
+output: 
+  github_document:
+    toc: true
+---
+
+# Executive Summary
+
+## Introduction
+
+What is the underlying biological question?
+Who is this for?
+
+GitHub URL:
+
+## Data and Methods
+
+What data do we have?
+How many samples?
+How is this relevant to the question?
+
+What statistical tests will we perform?
+What would we expect to see if our hypothesis is correct?
+What would we expect if there's nothing there?
+
+## Results
+
+## Conclusions
+
+# Libraries
+
+# Analysis
+
+# Appendix
+
+```{r get_session_info}
+
+devtools::session_info()
+
+```
